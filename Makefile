@@ -14,6 +14,6 @@ help:
 
 
 run:
-	npm run start $(ARGS)
+	node index.js $(ARGS)
 
 .PHONY: run
