@@ -3,7 +3,7 @@ const calcFactors = require("./calcFactors");
 const calcRepeats = (str) => {
 	const distances = {};
 
-	for (let i = 0; i < str.length; i++) {
+	for (let i = 0; i < str.length - 3; i++) {
 		// Get the next 3 letters
 		const currentStr = str.substr(i, 3);
 
@@ -27,3 +27,6 @@ const calcRepeats = (str) => {
 
 	return distances;
 };
+
+module.exports = calcRepeats;
+

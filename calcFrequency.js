@@ -11,4 +11,4 @@ const calcFrequency = (str) => {
 	return freq;
 };
 
-exports = calcFrequency;
+module.exports = calcFrequency;

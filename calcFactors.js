@@ -18,3 +18,6 @@ const calcFactors = (num) => {
 
 	return factors;
 };
+
+
+module.exports = calcFactors;
