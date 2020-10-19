@@ -1,4 +1,4 @@
-module.exports = {
+const origFreqs = {
 	a: 0.082,
 	b: 0.015,
 	c: 0.028,
@@ -27,3 +27,4 @@ module.exports = {
 	z: 0.001,
 };
 
+module.exports = origFreqs;
