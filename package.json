@@ -1,0 +1,10 @@
+{
+	"name": "vigenere",
+	"prettier": {
+		"useTabs": true,
+		"printWidth": 80
+	},
+	"dependencies": {
+		"prettier": "^2.1.2"
+	}
+}

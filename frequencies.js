@@ -24,7 +24,9 @@ module.exports = {
 	w: 0.024,
 	x: 0.002,
 	y: 0.02,
-	z: 0.001
-}
+	z: 0.001,
+};
 
-console.log(Object.keys(module.exports).reduce((a, c) => a + module.exports[c], 0))
+console.log(
+	Object.keys(module.exports).reduce((a, c) => a + module.exports[c], 0)
+);

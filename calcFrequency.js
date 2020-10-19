@@ -1,4 +1,4 @@
-const calcFrequency = str => {
+const calcFrequency = (str) => {
 	const freq = {};
 
 	for (let i = 0; i < str.length; i++) {
